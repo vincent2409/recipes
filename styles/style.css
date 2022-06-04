@@ -1,0 +1,63 @@
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: lightblue;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 0 20px 20px 20px;
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
+h2 {
+    font-size: 18px;
+    padding:20px 0 0 0;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+table { 
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid lightslategray;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+td {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    text-align: center;
+}
+tr:nth-child(odd) td {
+    background-color: lightgrey;
+}
+p {
+    font-size: 14px;
+}
+ul, ol {
+    font-size: 14px;
+}
+p.label {
+    display: block;
+    padding: 0 10px 20px 10px;
+}
+p.label a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+ol {
+    list-style-type: none;
+}
+ul li {
+    padding:10px 10px;
+}
+ol li{
+    font-weight: bold;
+}
